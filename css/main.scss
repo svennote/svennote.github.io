@@ -2,6 +2,7 @@
 ---
 
 $ahsc: #3F51B5;
+$ahsd: #1A237E;
 
 body {
   background-color: $ahsc;
@@ -12,6 +13,27 @@ body {
 
 .logo {
 
-width:95%
+display:block;
+margin:0 auto;
+width:85%;
+
+}
+
+footer {
+
+background-color:$ahsd;
+height:50px;
+position: absolute;
+bottom:0;
+left:0;
+right:0;
+
+}
+
+footer a:link, a:visited {
+
+text-decoration: none;
+color:white;
+padding:5px;
 
 }
