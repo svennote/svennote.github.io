@@ -3,6 +3,7 @@
 
 $ahsc: #3F51B5;
 $ahsd: #1A237E;
+$ahse: #E8EAF6;
 
 body {
   background-color: $ahsc;
@@ -13,6 +14,7 @@ body {
 
 .logo {
 
+padding-top:75px;
 display:block;
 margin:0 auto;
 width:85%;
@@ -22,12 +24,12 @@ width:85%;
 footer {
 
 background-color:$ahsd;
-height:50px;
+height:30px;
 position: absolute;
 bottom:0;
 left:0;
 right:0;
-
+text-align: center;
 }
 
 footer a:link, a:visited {
@@ -35,5 +37,47 @@ footer a:link, a:visited {
 text-decoration: none;
 color:white;
 padding:5px;
+
+}
+
+header {
+
+background-color: $ahsd;
+position: absolute;
+top:0;
+left:0;
+right:0;
+height:50px;
+
+}
+
+
+.inlogger {
+
+width:7%;
+padding:15px;
+float:right;
+
+}
+
+a.link {
+
+padding:10px;
+border-radius:5px;
+background-color: $ahse;
+position:absolute;
+text-align: center;
+bottom:50px;
+left:110px;
+right:110px;
+text-decoration: none;
+color:black;
+
+}
+
+a.link:hover {
+
+background-color:$ahsd;
+color:white;
 
 }
